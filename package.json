@@ -11,6 +11,7 @@
     "test:integration": "bun test test/integration",
     "test:concurrency": "bun test test/concurrency",
     "test:load": "bun run test/load/index.ts",
+    "demo": "bun run scripts/demo.ts",
     "lint": "tsc --noEmit",
     "mikro-orm": "mikro-orm"
   },
